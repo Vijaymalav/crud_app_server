@@ -4,6 +4,11 @@
   "description": "'my crud app'",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.11.0"
+  },
+
   "scripts": {
     "start": "node server.js",
     "client-install":"cd client && npm install",
